@@ -321,14 +321,6 @@ font-weight: var(--fw-b);
     opacity: 0;
     margin-left:3em;
     }
-    50%{
-    opacity: 0.75;
-   
-    }
-    75%{
-    opacity: 0.5;
- 
-    }
     100%{
     opacity: 1;
     margin-left:0 ;
@@ -339,14 +331,7 @@ font-weight: var(--fw-b);
     opacity: 0;
     margin-left:3em;
     }
-    50%{
-    opacity: 0.75;
-   
-    }
-    75%{
-    opacity: 0.5;
- 
-    }
+    
     100%{
     opacity: 1;
     margin-left:0 ;
@@ -356,14 +341,6 @@ font-weight: var(--fw-b);
     0%{
     opacity: 0;
     margin-left:3em;
-    }
-    50%{
-    opacity: 0.75;
-   
-    }
-    75%{
-    opacity: 0.5;
- 
     }
     100%{
     opacity: 1;
@@ -584,10 +561,17 @@ input{
     }
     .main5-inpt>input{
     margin-left:1.5em;
-    color: var(--light-clr);
+    /*color: var(--light-clr);*/
+    background: linear-gradient(93.67deg, rgba(255, 254, 254, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
     background-color: transparent;
-    border: 0;
-    outline: 0;
+    border: none;
+    outline: none;
+    }
+    input{
+        background:var(--inp-clr);
+        color:var(--inp-clr);
+        outline:none;
+        border: 0;
     }
     .main5-inpt>label{
         display: none;
